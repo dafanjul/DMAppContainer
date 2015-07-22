@@ -1,0 +1,6 @@
+framework module DMHotelFramework {
+  umbrella header "Pods-DMAppContainer-DMHotelFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

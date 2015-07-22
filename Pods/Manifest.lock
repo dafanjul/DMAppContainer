@@ -1,0 +1,14 @@
+PODS:
+  - DMHotelFramework (0.0.1)
+
+DEPENDENCIES:
+  - DMHotelFramework (from `../DMHotelFramework`)
+
+EXTERNAL SOURCES:
+  DMHotelFramework:
+    :path: ../DMHotelFramework
+
+SPEC CHECKSUMS:
+  DMHotelFramework: 49b58c1028d4eaa7d5f8529d31b74387b54ec7ed
+
+COCOAPODS: 0.37.2
