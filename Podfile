@@ -4,7 +4,7 @@ use_frameworks!
 
 target 'DMAppContainer' do
 
-pod 'DMHotelFramework', :path => '../DMHotelFramework'
+pod 'DMHotelFramework', :git => 'https://github.com/dafanjul/DMHotelFramework.git'
 
 end
 

@@ -1,1 +1,1 @@
-../../../../../DMHotelFramework/DMHotelFramework/DMHotel.h
+../../../DMHotelFramework/DMHotelFramework/DMHotel.h
