@@ -8,8 +8,12 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'DMAppContainer' do
 
 #pod 'DMHotelFramework', :git => 'https://github.com/dafanjul/DMHotelFramework.git'
-pod 'DMFlightsFramework', :path => '../DMFlightsFramework'
-pod 'DMHotelFramework', :path => '../DMHotelFramework'
+#pod 'DMFlightsFramework', :path => '../DMFlightsFramework'
+#pod 'DMHotelFramework', :path => '../DMHotelFramework'
+
+pod "DMHotelFramework"
+pod "DMFlightsFramework"
+
 end
 
 target 'DMAppContainerTests' do
