@@ -1,0 +1,22 @@
+PODS:
+  - DMCoreFramework (0.0.1)
+  - DMFlightsFramework (0.0.1)
+  - DMHotelFramework (0.0.1):
+    - DMCoreFramework (~> 0.0.1)
+
+DEPENDENCIES:
+  - DMFlightsFramework (from `../DMFlightsFramework`)
+  - DMHotelFramework (from `../DMHotelFramework`)
+
+EXTERNAL SOURCES:
+  DMFlightsFramework:
+    :path: ../DMFlightsFramework
+  DMHotelFramework:
+    :path: ../DMHotelFramework
+
+SPEC CHECKSUMS:
+  DMCoreFramework: cf2bcf550441e8978e5dec05cdc96741e00be746
+  DMFlightsFramework: 59669a394e3df814b0cef0d07774e2d68f382bf6
+  DMHotelFramework: b96cddcb25a90c8f832c6a40bc34a745b9268c62
+
+COCOAPODS: 0.37.2
