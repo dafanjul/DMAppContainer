@@ -7,243 +7,270 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A57FAADA281A5D2CE0CE1A3 /* DMHotelStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0A744F09C51861460C5A36 /* DMHotelStoryboard.storyboard */; };
-		3274D87009499C92F3BD5707 /* DMHotel.h in Headers */ = {isa = PBXBuildFile; fileRef = DC959DE9385A78D799862A67 /* DMHotel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3A9F96C9B2BB43B4DFDB41D3 /* Pods-DMAppContainer-DMHotelFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCE4C5346C1F53B9B82D848 /* Pods-DMAppContainer-DMHotelFramework-dummy.m */; };
-		6B69AB21D26244AAD047271B /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73979FE4128F034FA4AED2E2 /* Media.xcassets */; };
-		7845D4F34F23A6FE9BDEBE8B /* DMHotelMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43BBB85A7E4917BC074AF5B3 /* DMHotelMainViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7E8FB4C618C29D3FB9F81851 /* Pods-DMAppContainer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 382D5BA0BB3AF86399F56877 /* Pods-DMAppContainer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		813F625B6E55388FACAC9C8E /* Pods-DMAppContainer-DMHotelFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EFE791E9121B9A3688688D8 /* Pods-DMAppContainer-DMHotelFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91AE5FAE2B02046840550E0E /* DMHotelFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C2551AC00D77B9212DA6AC /* DMHotelFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97D2E65AE7FE4329C237C294 /* DMHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5513FAC41BA1BA1FBAD0BD4 /* DMHotel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ABDECAD5E491837ABEFFBE78 /* DMHotelMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 261CE2BCE55349DE116C2A92 /* DMHotelMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B9E4DBD601EB1D0BE2EB3DFA /* Pods-DMAppContainer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65DD3C31C6A9E9084BA427 /* Pods-DMAppContainer-dummy.m */; };
-		C9BD966BD0B2236B736E8C74 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80F4A2BCFD9B8BB76665FA2 /* Foundation.framework */; };
-		DB7D23D991DB0FBB980C7F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80F4A2BCFD9B8BB76665FA2 /* Foundation.framework */; };
+		0E30AF1CB85717CA7885D6AA /* DMHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE22A8838DB85DDC1F50207 /* DMHotel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		322C1756E2F813685367FC58 /* Pods-DMAppContainer-DMHotelFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAD832380EE7576254133F8 /* Pods-DMAppContainer-DMHotelFramework-dummy.m */; };
+		5E83C19E2345B717F99B9AC3 /* DMHotel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6231BC8448F19E502E540C68 /* DMHotel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC1659175F452990EDE85A7 /* DMHotelFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 41795B495AFEE1D1D6C9973A /* DMHotelFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FCC7A6B857AD4C0D6B3925C /* Pods-DMAppContainer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 843B56CC1193684693B6FE04 /* Pods-DMAppContainer-dummy.m */; };
+		600A5EF43D90F0BA56AEB559 /* DMHotelStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE0343D38EFF5A17892526E /* DMHotelStoryboard.storyboard */; };
+		6DB7874850F80F0C7D5E7C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8ABAA9B8DEFAFB336CEA683 /* Foundation.framework */; };
+		97D0EA01E4AFD29BDB94D685 /* DMHotelMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48269A6BB12797DFE9DA4A5A /* DMHotelMainViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A477613CB8D82B78C181F621 /* DMHotelMainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F2EB6AC8AB6FB700D25D90B4 /* DMHotelMainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A62B8FD40DC23E4D12776917 /* Pods-DMAppContainer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 109F120DEAB00D71EFCFF543 /* Pods-DMAppContainer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4CDFCFB52E6FF28FBC8CAC3 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3394D6FEF28F82083F65C3E9 /* Media.xcassets */; };
+		EE2B3323D0D7D6D070571AF8 /* Pods-DMAppContainer-DMHotelFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 192BEF7380FF888C0BCC6747 /* Pods-DMAppContainer-DMHotelFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F84BD169DE65F3C121627E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8ABAA9B8DEFAFB336CEA683 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		178CB541F4B7AFFB721BA797 /* PBXContainerItemProxy */ = {
+		607E73491349B2F2C13383F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F81F9A296F8D28EFE0F3BCC7 /* Project object */;
+			containerPortal = A5229BCC3EAFE5133CD72F4A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DDF4CAB12977607F2D113E4D;
+			remoteGlobalIDString = 5F05547C9FA87038388D0953;
 			remoteInfo = "Pods-DMAppContainer-DMHotelFramework";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01C832ECAC640BA80638EAF3 /* Pods-DMAppContainer-DMHotelFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMAppContainer-DMHotelFramework.xcconfig"; sourceTree = "<group>"; };
-		10C2551AC00D77B9212DA6AC /* DMHotelFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMHotelFramework.h; path = DMHotelFramework/DMHotelFramework.h; sourceTree = "<group>"; };
-		261CE2BCE55349DE116C2A92 /* DMHotelMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMHotelMainViewController.h; path = DMHotelFramework/DMHotelMainViewController.h; sourceTree = "<group>"; };
-		2771AEA992DD0AE4ED17C35A /* Pods-DMAppContainer-DMHotelFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DMAppContainer-DMHotelFramework.modulemap"; sourceTree = "<group>"; };
-		2E03187369C17791C610AA45 /* Pods-DMAppContainer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DMAppContainer.modulemap"; sourceTree = "<group>"; };
-		382D5BA0BB3AF86399F56877 /* Pods-DMAppContainer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMAppContainer-umbrella.h"; sourceTree = "<group>"; };
-		3B0A744F09C51861460C5A36 /* DMHotelStoryboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = DMHotelStoryboard.storyboard; path = Resources/DMHotelStoryboard.storyboard; sourceTree = "<group>"; };
-		43BBB85A7E4917BC074AF5B3 /* DMHotelMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMHotelMainViewController.m; path = DMHotelFramework/DMHotelMainViewController.m; sourceTree = "<group>"; };
-		4898FFEF40A140F2497E8B78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F5C9C34BC665F4AF48A0F56 /* Pods-DMAppContainer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMAppContainer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		62030A5D35E3AC8E7C0B93F8 /* DMHotelFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMHotelFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		717A9CBAC38D31CCDF3DF8AE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		73979FE4128F034FA4AED2E2 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = "<group>"; };
-		824F7AE235EC8DBB45E28821 /* Pods-DMAppContainer-DMHotelFramework-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMAppContainer-DMHotelFramework-Private.xcconfig"; sourceTree = "<group>"; };
-		86DB241EF37F5B2E192BAF13 /* Pods-DMAppContainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMAppContainer.release.xcconfig"; sourceTree = "<group>"; };
-		87EE05F1C6100530BE7B8AE6 /* Pods-DMAppContainer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMAppContainer-acknowledgements.plist"; sourceTree = "<group>"; };
-		88B1A850FF8D8E4E8CD3E8C4 /* Pods-DMAppContainer-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMAppContainer-environment.h"; sourceTree = "<group>"; };
-		9EFE791E9121B9A3688688D8 /* Pods-DMAppContainer-DMHotelFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMAppContainer-DMHotelFramework-umbrella.h"; sourceTree = "<group>"; };
-		A5513FAC41BA1BA1FBAD0BD4 /* DMHotel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMHotel.m; path = DMHotelFramework/DMHotel.m; sourceTree = "<group>"; };
-		A639EFC9165A94FA7987167F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE65DD3C31C6A9E9084BA427 /* Pods-DMAppContainer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMAppContainer-dummy.m"; sourceTree = "<group>"; };
-		B28B911F31A84FE99AF0A883 /* Pods-DMAppContainer-DMHotelFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMAppContainer-DMHotelFramework-prefix.pch"; sourceTree = "<group>"; };
-		C212F4FB3F0B0EDB594C47C6 /* Pods-DMAppContainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMAppContainer.debug.xcconfig"; sourceTree = "<group>"; };
-		D40940F004D916B9EB3D3DA9 /* Pods_DMAppContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMAppContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5FCF0521B712D3E02EE1586 /* Pods-DMAppContainer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMAppContainer-resources.sh"; sourceTree = "<group>"; };
-		D80F4A2BCFD9B8BB76665FA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DC959DE9385A78D799862A67 /* DMHotel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMHotel.h; path = DMHotelFramework/DMHotel.h; sourceTree = "<group>"; };
-		DDCE4C5346C1F53B9B82D848 /* Pods-DMAppContainer-DMHotelFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMAppContainer-DMHotelFramework-dummy.m"; sourceTree = "<group>"; };
-		F41435689C09ACB3A9D07D54 /* Pods-DMAppContainer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMAppContainer-frameworks.sh"; sourceTree = "<group>"; };
+		109F120DEAB00D71EFCFF543 /* Pods-DMAppContainer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMAppContainer-umbrella.h"; sourceTree = "<group>"; };
+		192BEF7380FF888C0BCC6747 /* Pods-DMAppContainer-DMHotelFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMAppContainer-DMHotelFramework-umbrella.h"; sourceTree = "<group>"; };
+		2BDC87AF2AEA3B08D697BCEE /* Pods-DMAppContainer-DMHotelFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMAppContainer-DMHotelFramework-prefix.pch"; sourceTree = "<group>"; };
+		2C654E1B0C99C7B83F3D0685 /* DMHotelFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMHotelFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3394D6FEF28F82083F65C3E9 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Resources/Media.xcassets; sourceTree = "<group>"; };
+		36266FAFD58289D906382848 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DE18965E67C20DB712E8D1E /* Pods-DMAppContainer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMAppContainer.release.xcconfig"; sourceTree = "<group>"; };
+		3FEBA777A5A0188961247285 /* Pods-DMAppContainer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMAppContainer-frameworks.sh"; sourceTree = "<group>"; };
+		41795B495AFEE1D1D6C9973A /* DMHotelFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMHotelFramework.h; path = DMHotelFramework/DMHotelFramework.h; sourceTree = "<group>"; };
+		48269A6BB12797DFE9DA4A5A /* DMHotelMainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMHotelMainViewController.m; path = DMHotelFramework/DMHotelMainViewController.m; sourceTree = "<group>"; };
+		56F2836F66C9783ADB70CFC1 /* DMFlightsFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DMFlightsFramework.h; sourceTree = "<group>"; };
+		6231BC8448F19E502E540C68 /* DMHotel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMHotel.h; path = DMHotelFramework/DMHotel.h; sourceTree = "<group>"; };
+		6E072D82D02B95F5D5F06EDB /* Pods-DMAppContainer-DMHotelFramework-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMAppContainer-DMHotelFramework-Private.xcconfig"; sourceTree = "<group>"; };
+		71CBD6B7AF8B10D15148C043 /* Pods-DMAppContainer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMAppContainer.debug.xcconfig"; sourceTree = "<group>"; };
+		7EE0343D38EFF5A17892526E /* DMHotelStoryboard.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; name = DMHotelStoryboard.storyboard; path = Resources/DMHotelStoryboard.storyboard; sourceTree = "<group>"; };
+		843B56CC1193684693B6FE04 /* Pods-DMAppContainer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMAppContainer-dummy.m"; sourceTree = "<group>"; };
+		84781ED3005D440A9BD78E16 /* Pods_DMAppContainer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMAppContainer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8683E597243DEB47DB96DA51 /* Pods-DMAppContainer-DMHotelFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DMAppContainer-DMHotelFramework.xcconfig"; sourceTree = "<group>"; };
+		8A5330A9AAF388E8D30647C5 /* Pods-DMAppContainer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DMAppContainer.modulemap"; sourceTree = "<group>"; };
+		A8ABAA9B8DEFAFB336CEA683 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ADE6F61B762E3AA08177E0B8 /* Pods-DMAppContainer-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DMAppContainer-environment.h"; sourceTree = "<group>"; };
+		C314B909FF51A2F064E05134 /* Pods-DMAppContainer-DMHotelFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DMAppContainer-DMHotelFramework.modulemap"; sourceTree = "<group>"; };
+		CB3DDC6DBFF6DA562C313A09 /* Pods-DMAppContainer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DMAppContainer-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBAD832380EE7576254133F8 /* Pods-DMAppContainer-DMHotelFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DMAppContainer-DMHotelFramework-dummy.m"; sourceTree = "<group>"; };
+		E1F6283638F681484D8014DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A0D2BDE43386055595F8BC /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ECE22A8838DB85DDC1F50207 /* DMHotel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DMHotel.m; path = DMHotelFramework/DMHotel.m; sourceTree = "<group>"; };
+		F2EB6AC8AB6FB700D25D90B4 /* DMHotelMainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DMHotelMainViewController.h; path = DMHotelFramework/DMHotelMainViewController.h; sourceTree = "<group>"; };
+		F9777EC8BC7E56770B89FD34 /* Pods-DMAppContainer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DMAppContainer-resources.sh"; sourceTree = "<group>"; };
+		FAA6AC64FA21ECE750BF81C4 /* Pods-DMAppContainer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DMAppContainer-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7D883D81F619845382AB1930 /* Frameworks */ = {
+		155A988F57350D2E33FD2B20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7D23D991DB0FBB980C7F2C /* Foundation.framework in Frameworks */,
+				6DB7874850F80F0C7D5E7C67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C07D89CA64A1548CA014D49A /* Frameworks */ = {
+		8DECC95558F210C13A381A1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9BD966BD0B2236B736E8C74 /* Foundation.framework in Frameworks */,
+				F84BD169DE65F3C121627E81 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D8C32977F53FFF27D6BD33D /* DMHotelFramework */ = {
+		2151343759FC109B56BD934F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				DC959DE9385A78D799862A67 /* DMHotel.h */,
-				A5513FAC41BA1BA1FBAD0BD4 /* DMHotel.m */,
-				10C2551AC00D77B9212DA6AC /* DMHotelFramework.h */,
-				261CE2BCE55349DE116C2A92 /* DMHotelMainViewController.h */,
-				43BBB85A7E4917BC074AF5B3 /* DMHotelMainViewController.m */,
-				D61F8627D1CC1CF1D3336B26 /* Resources */,
-				0E2E4B1D78CFBC5ADAA69501 /* Support Files */,
-			);
-			path = DMHotelFramework;
-			sourceTree = "<group>";
-		};
-		0E2E4B1D78CFBC5ADAA69501 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4898FFEF40A140F2497E8B78 /* Info.plist */,
-				2771AEA992DD0AE4ED17C35A /* Pods-DMAppContainer-DMHotelFramework.modulemap */,
-				01C832ECAC640BA80638EAF3 /* Pods-DMAppContainer-DMHotelFramework.xcconfig */,
-				824F7AE235EC8DBB45E28821 /* Pods-DMAppContainer-DMHotelFramework-Private.xcconfig */,
-				DDCE4C5346C1F53B9B82D848 /* Pods-DMAppContainer-DMHotelFramework-dummy.m */,
-				B28B911F31A84FE99AF0A883 /* Pods-DMAppContainer-DMHotelFramework-prefix.pch */,
-				9EFE791E9121B9A3688688D8 /* Pods-DMAppContainer-DMHotelFramework-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-DMAppContainer-DMHotelFramework";
-			sourceTree = "<group>";
-		};
-		4A80D28A0E7E3A2C5579098D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B765C2D68B44DA06C6DF32CB /* Pods-DMAppContainer */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		674729FE6798EF246EF60E12 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D80F4A2BCFD9B8BB76665FA2 /* Foundation.framework */,
+				A8ABAA9B8DEFAFB336CEA683 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		88BEDD02132CE2C30207E945 /* Frameworks */ = {
+		3C108D2CAFE4118DFFF688DE = {
 			isa = PBXGroup;
 			children = (
-				674729FE6798EF246EF60E12 /* iOS */,
+				E7A0D2BDE43386055595F8BC /* Podfile */,
+				CDEA74B909497747B734944A /* Development Pods */,
+				842B3C92A3C86AE4B244A66F /* Frameworks */,
+				86C9DA270DA8C0C986453D71 /* Pods */,
+				FB9C0F3451EF63F593BD9DCC /* Products */,
+				B02BA15A6B1CAABFA0A24E1D /* Targets Support Files */,
 			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B446FE735BA8609D40BEE631 /* Pods */ = {
+		5321C92202725527A7D66E1E /* DMFlightsFramework */ = {
 			isa = PBXGroup;
 			children = (
-				0D8C32977F53FFF27D6BD33D /* DMHotelFramework */,
+				F3C1E2F635912AA9D8B7975F /* DMFlightsFramework */,
 			);
-			name = Pods;
+			name = DMFlightsFramework;
+			path = ../../DMFlightsFramework;
 			sourceTree = "<group>";
 		};
-		B765C2D68B44DA06C6DF32CB /* Pods-DMAppContainer */ = {
+		5A76E040061A15F8098C8381 /* Pods-DMAppContainer */ = {
 			isa = PBXGroup;
 			children = (
-				A639EFC9165A94FA7987167F /* Info.plist */,
-				2E03187369C17791C610AA45 /* Pods-DMAppContainer.modulemap */,
-				5F5C9C34BC665F4AF48A0F56 /* Pods-DMAppContainer-acknowledgements.markdown */,
-				87EE05F1C6100530BE7B8AE6 /* Pods-DMAppContainer-acknowledgements.plist */,
-				AE65DD3C31C6A9E9084BA427 /* Pods-DMAppContainer-dummy.m */,
-				88B1A850FF8D8E4E8CD3E8C4 /* Pods-DMAppContainer-environment.h */,
-				F41435689C09ACB3A9D07D54 /* Pods-DMAppContainer-frameworks.sh */,
-				D5FCF0521B712D3E02EE1586 /* Pods-DMAppContainer-resources.sh */,
-				382D5BA0BB3AF86399F56877 /* Pods-DMAppContainer-umbrella.h */,
-				C212F4FB3F0B0EDB594C47C6 /* Pods-DMAppContainer.debug.xcconfig */,
-				86DB241EF37F5B2E192BAF13 /* Pods-DMAppContainer.release.xcconfig */,
+				E1F6283638F681484D8014DA /* Info.plist */,
+				8A5330A9AAF388E8D30647C5 /* Pods-DMAppContainer.modulemap */,
+				FAA6AC64FA21ECE750BF81C4 /* Pods-DMAppContainer-acknowledgements.markdown */,
+				CB3DDC6DBFF6DA562C313A09 /* Pods-DMAppContainer-acknowledgements.plist */,
+				843B56CC1193684693B6FE04 /* Pods-DMAppContainer-dummy.m */,
+				ADE6F61B762E3AA08177E0B8 /* Pods-DMAppContainer-environment.h */,
+				3FEBA777A5A0188961247285 /* Pods-DMAppContainer-frameworks.sh */,
+				F9777EC8BC7E56770B89FD34 /* Pods-DMAppContainer-resources.sh */,
+				109F120DEAB00D71EFCFF543 /* Pods-DMAppContainer-umbrella.h */,
+				71CBD6B7AF8B10D15148C043 /* Pods-DMAppContainer.debug.xcconfig */,
+				3DE18965E67C20DB712E8D1E /* Pods-DMAppContainer.release.xcconfig */,
 			);
 			name = "Pods-DMAppContainer";
 			path = "Target Support Files/Pods-DMAppContainer";
 			sourceTree = "<group>";
 		};
-		B77AFA52D4227715D467F084 = {
+		842B3C92A3C86AE4B244A66F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				717A9CBAC38D31CCDF3DF8AE /* Podfile */,
-				88BEDD02132CE2C30207E945 /* Frameworks */,
-				B446FE735BA8609D40BEE631 /* Pods */,
-				D5C8F4DEFC02E043F9DA2DB6 /* Products */,
-				4A80D28A0E7E3A2C5579098D /* Targets Support Files */,
+				2151343759FC109B56BD934F /* iOS */,
 			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5C8F4DEFC02E043F9DA2DB6 /* Products */ = {
+		86C9DA270DA8C0C986453D71 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				62030A5D35E3AC8E7C0B93F8 /* DMHotelFramework.framework */,
-				D40940F004D916B9EB3D3DA9 /* Pods_DMAppContainer.framework */,
+				E896596A77B128074FC88CF5 /* DMHotelFramework */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		D61F8627D1CC1CF1D3336B26 /* Resources */ = {
+		B02BA15A6B1CAABFA0A24E1D /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B0A744F09C51861460C5A36 /* DMHotelStoryboard.storyboard */,
-				73979FE4128F034FA4AED2E2 /* Media.xcassets */,
+				5A76E040061A15F8098C8381 /* Pods-DMAppContainer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C73B2D81217BBAF3DC7E06E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36266FAFD58289D906382848 /* Info.plist */,
+				C314B909FF51A2F064E05134 /* Pods-DMAppContainer-DMHotelFramework.modulemap */,
+				8683E597243DEB47DB96DA51 /* Pods-DMAppContainer-DMHotelFramework.xcconfig */,
+				6E072D82D02B95F5D5F06EDB /* Pods-DMAppContainer-DMHotelFramework-Private.xcconfig */,
+				CBAD832380EE7576254133F8 /* Pods-DMAppContainer-DMHotelFramework-dummy.m */,
+				2BDC87AF2AEA3B08D697BCEE /* Pods-DMAppContainer-DMHotelFramework-prefix.pch */,
+				192BEF7380FF888C0BCC6747 /* Pods-DMAppContainer-DMHotelFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-DMAppContainer-DMHotelFramework";
+			sourceTree = "<group>";
+		};
+		CDEA74B909497747B734944A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5321C92202725527A7D66E1E /* DMFlightsFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E896596A77B128074FC88CF5 /* DMHotelFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6231BC8448F19E502E540C68 /* DMHotel.h */,
+				ECE22A8838DB85DDC1F50207 /* DMHotel.m */,
+				41795B495AFEE1D1D6C9973A /* DMHotelFramework.h */,
+				F2EB6AC8AB6FB700D25D90B4 /* DMHotelMainViewController.h */,
+				48269A6BB12797DFE9DA4A5A /* DMHotelMainViewController.m */,
+				EBCACC3723B1358FB010EA6A /* Resources */,
+				C73B2D81217BBAF3DC7E06E3 /* Support Files */,
+			);
+			path = DMHotelFramework;
+			sourceTree = "<group>";
+		};
+		EBCACC3723B1358FB010EA6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7EE0343D38EFF5A17892526E /* DMHotelStoryboard.storyboard */,
+				3394D6FEF28F82083F65C3E9 /* Media.xcassets */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		F3C1E2F635912AA9D8B7975F /* DMFlightsFramework */ = {
+			isa = PBXGroup;
+			children = (
+				56F2836F66C9783ADB70CFC1 /* DMFlightsFramework.h */,
+			);
+			path = DMFlightsFramework;
+			sourceTree = "<group>";
+		};
+		FB9C0F3451EF63F593BD9DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C654E1B0C99C7B83F3D0685 /* DMHotelFramework.framework */,
+				84781ED3005D440A9BD78E16 /* Pods_DMAppContainer.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C1D1757A923976FACED08CC /* Headers */ = {
+		0195CD824DE9DF9C01F15348 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E8FB4C618C29D3FB9F81851 /* Pods-DMAppContainer-umbrella.h in Headers */,
+				5E83C19E2345B717F99B9AC3 /* DMHotel.h in Headers */,
+				5EC1659175F452990EDE85A7 /* DMHotelFramework.h in Headers */,
+				A477613CB8D82B78C181F621 /* DMHotelMainViewController.h in Headers */,
+				EE2B3323D0D7D6D070571AF8 /* Pods-DMAppContainer-DMHotelFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58BC6E69F44D4FC20800D58B /* Headers */ = {
+		CFEA2421B0B9B6F8B0C2FB4F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3274D87009499C92F3BD5707 /* DMHotel.h in Headers */,
-				91AE5FAE2B02046840550E0E /* DMHotelFramework.h in Headers */,
-				ABDECAD5E491837ABEFFBE78 /* DMHotelMainViewController.h in Headers */,
-				813F625B6E55388FACAC9C8E /* Pods-DMAppContainer-DMHotelFramework-umbrella.h in Headers */,
+				A62B8FD40DC23E4D12776917 /* Pods-DMAppContainer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7E009C1980624F51FC104770 /* Pods-DMAppContainer */ = {
+		23472C57B8BBF16B870E9C9F /* Pods-DMAppContainer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09C55E9165E7C352D3495BE4 /* Build configuration list for PBXNativeTarget "Pods-DMAppContainer" */;
+			buildConfigurationList = 45BE8406FFD4BFCF8A4A3638 /* Build configuration list for PBXNativeTarget "Pods-DMAppContainer" */;
 			buildPhases = (
-				10AC0A9A1126B86BCA26E08D /* Sources */,
-				7D883D81F619845382AB1930 /* Frameworks */,
-				0C1D1757A923976FACED08CC /* Headers */,
+				657FB3E2DAC353370B20C881 /* Sources */,
+				155A988F57350D2E33FD2B20 /* Frameworks */,
+				CFEA2421B0B9B6F8B0C2FB4F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BB5842B1AA856A8EC96163C8 /* PBXTargetDependency */,
+				6E084B0035AB8D9AEEB7351A /* PBXTargetDependency */,
 			);
 			name = "Pods-DMAppContainer";
 			productName = "Pods-DMAppContainer";
-			productReference = D40940F004D916B9EB3D3DA9 /* Pods_DMAppContainer.framework */;
+			productReference = 84781ED3005D440A9BD78E16 /* Pods_DMAppContainer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DDF4CAB12977607F2D113E4D /* Pods-DMAppContainer-DMHotelFramework */ = {
+		5F05547C9FA87038388D0953 /* Pods-DMAppContainer-DMHotelFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9422F6EF9A356111E0F19E46 /* Build configuration list for PBXNativeTarget "Pods-DMAppContainer-DMHotelFramework" */;
+			buildConfigurationList = 67F693E8C5F6A0BA954EDC8B /* Build configuration list for PBXNativeTarget "Pods-DMAppContainer-DMHotelFramework" */;
 			buildPhases = (
-				EC3D92A0D035209E3679217F /* Sources */,
-				C07D89CA64A1548CA014D49A /* Frameworks */,
-				58BC6E69F44D4FC20800D58B /* Headers */,
-				6CFD4FCF5DD2C48DFD1BB0E5 /* Resources */,
+				DF4217DEDEDD50CCDE692A71 /* Sources */,
+				8DECC95558F210C13A381A1C /* Frameworks */,
+				0195CD824DE9DF9C01F15348 /* Headers */,
+				454BF323CB94EA7EA267C734 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -251,79 +278,79 @@
 			);
 			name = "Pods-DMAppContainer-DMHotelFramework";
 			productName = "Pods-DMAppContainer-DMHotelFramework";
-			productReference = 62030A5D35E3AC8E7C0B93F8 /* DMHotelFramework.framework */;
+			productReference = 2C654E1B0C99C7B83F3D0685 /* DMHotelFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F81F9A296F8D28EFE0F3BCC7 /* Project object */ = {
+		A5229BCC3EAFE5133CD72F4A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 10C7F68DE50ADFFE1F6E2DC8 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 65CB91CB4DDF00765D7F6982 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = B77AFA52D4227715D467F084;
-			productRefGroup = D5C8F4DEFC02E043F9DA2DB6 /* Products */;
+			mainGroup = 3C108D2CAFE4118DFFF688DE;
+			productRefGroup = FB9C0F3451EF63F593BD9DCC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7E009C1980624F51FC104770 /* Pods-DMAppContainer */,
-				DDF4CAB12977607F2D113E4D /* Pods-DMAppContainer-DMHotelFramework */,
+				23472C57B8BBF16B870E9C9F /* Pods-DMAppContainer */,
+				5F05547C9FA87038388D0953 /* Pods-DMAppContainer-DMHotelFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6CFD4FCF5DD2C48DFD1BB0E5 /* Resources */ = {
+		454BF323CB94EA7EA267C734 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A57FAADA281A5D2CE0CE1A3 /* DMHotelStoryboard.storyboard in Resources */,
-				6B69AB21D26244AAD047271B /* Media.xcassets in Resources */,
+				600A5EF43D90F0BA56AEB559 /* DMHotelStoryboard.storyboard in Resources */,
+				E4CDFCFB52E6FF28FBC8CAC3 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		10AC0A9A1126B86BCA26E08D /* Sources */ = {
+		657FB3E2DAC353370B20C881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E4DBD601EB1D0BE2EB3DFA /* Pods-DMAppContainer-dummy.m in Sources */,
+				5FCC7A6B857AD4C0D6B3925C /* Pods-DMAppContainer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC3D92A0D035209E3679217F /* Sources */ = {
+		DF4217DEDEDD50CCDE692A71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97D2E65AE7FE4329C237C294 /* DMHotel.m in Sources */,
-				7845D4F34F23A6FE9BDEBE8B /* DMHotelMainViewController.m in Sources */,
-				3A9F96C9B2BB43B4DFDB41D3 /* Pods-DMAppContainer-DMHotelFramework-dummy.m in Sources */,
+				0E30AF1CB85717CA7885D6AA /* DMHotel.m in Sources */,
+				97D0EA01E4AFD29BDB94D685 /* DMHotelMainViewController.m in Sources */,
+				322C1756E2F813685367FC58 /* Pods-DMAppContainer-DMHotelFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BB5842B1AA856A8EC96163C8 /* PBXTargetDependency */ = {
+		6E084B0035AB8D9AEEB7351A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DMAppContainer-DMHotelFramework";
-			target = DDF4CAB12977607F2D113E4D /* Pods-DMAppContainer-DMHotelFramework */;
-			targetProxy = 178CB541F4B7AFFB721BA797 /* PBXContainerItemProxy */;
+			target = 5F05547C9FA87038388D0953 /* Pods-DMAppContainer-DMHotelFramework */;
+			targetProxy = 607E73491349B2F2C13383F5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		223B2C1F7EBFC4F579FD3CDE /* Release */ = {
+		57AC94842682C6B631CC11D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,92 +384,7 @@
 			};
 			name = Release;
 		};
-		5648C52E6B22BC862EC4E953 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 824F7AE235EC8DBB45E28821 /* Pods-DMAppContainer-DMHotelFramework-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-DMAppContainer-DMHotelFramework/Pods-DMAppContainer-DMHotelFramework-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-DMAppContainer-DMHotelFramework/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-DMAppContainer-DMHotelFramework/Pods-DMAppContainer-DMHotelFramework.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DMHotelFramework;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		837B81F0A72D0A01E6BCBB70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C212F4FB3F0B0EDB594C47C6 /* Pods-DMAppContainer.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DMAppContainer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-DMAppContainer/Pods-DMAppContainer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_DMAppContainer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9ED8888ECDDD016B73FEE2E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86DB241EF37F5B2E192BAF13 /* Pods-DMAppContainer.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-DMAppContainer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-DMAppContainer/Pods-DMAppContainer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_DMAppContainer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A43B25B3D60C1F7704D8014B /* Debug */ = {
+		9AA9A949B9442C5B203E8E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -481,9 +423,9 @@
 			};
 			name = Debug;
 		};
-		D7A02E338B6CC15B5F5953CC /* Release */ = {
+		9DF96196F0E70128578C7098 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 824F7AE235EC8DBB45E28821 /* Pods-DMAppContainer-DMHotelFramework-Private.xcconfig */;
+			baseConfigurationReference = 6E072D82D02B95F5D5F06EDB /* Pods-DMAppContainer-DMHotelFramework-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -508,37 +450,122 @@
 			};
 			name = Release;
 		};
+		A4E45A81C0E30CE2BF35F701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE18965E67C20DB712E8D1E /* Pods-DMAppContainer.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DMAppContainer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DMAppContainer/Pods-DMAppContainer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DMAppContainer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC946B1DE2ACF7D6BF6BF6AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E072D82D02B95F5D5F06EDB /* Pods-DMAppContainer-DMHotelFramework-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DMAppContainer-DMHotelFramework/Pods-DMAppContainer-DMHotelFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-DMAppContainer-DMHotelFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DMAppContainer-DMHotelFramework/Pods-DMAppContainer-DMHotelFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DMHotelFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F461DBD9EBDCFD6B4282C2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CBD6B7AF8B10D15148C043 /* Pods-DMAppContainer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DMAppContainer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-DMAppContainer/Pods-DMAppContainer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DMAppContainer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09C55E9165E7C352D3495BE4 /* Build configuration list for PBXNativeTarget "Pods-DMAppContainer" */ = {
+		45BE8406FFD4BFCF8A4A3638 /* Build configuration list for PBXNativeTarget "Pods-DMAppContainer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				837B81F0A72D0A01E6BCBB70 /* Debug */,
-				9ED8888ECDDD016B73FEE2E7 /* Release */,
+				F461DBD9EBDCFD6B4282C2D4 /* Debug */,
+				A4E45A81C0E30CE2BF35F701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		10C7F68DE50ADFFE1F6E2DC8 /* Build configuration list for PBXProject "Pods" */ = {
+		65CB91CB4DDF00765D7F6982 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A43B25B3D60C1F7704D8014B /* Debug */,
-				223B2C1F7EBFC4F579FD3CDE /* Release */,
+				9AA9A949B9442C5B203E8E16 /* Debug */,
+				57AC94842682C6B631CC11D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9422F6EF9A356111E0F19E46 /* Build configuration list for PBXNativeTarget "Pods-DMAppContainer-DMHotelFramework" */ = {
+		67F693E8C5F6A0BA954EDC8B /* Build configuration list for PBXNativeTarget "Pods-DMAppContainer-DMHotelFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5648C52E6B22BC862EC4E953 /* Debug */,
-				D7A02E338B6CC15B5F5953CC /* Release */,
+				EC946B1DE2ACF7D6BF6BF6AE /* Debug */,
+				9DF96196F0E70128578C7098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F81F9A296F8D28EFE0F3BCC7 /* Project object */;
+	rootObject = A5229BCC3EAFE5133CD72F4A /* Project object */;
 }

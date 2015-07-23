@@ -6,15 +6,12 @@
   "homepage": "http://EXAMPLE/DMHotelFramework",
   "license": "MIT (example)",
   "authors": {
-    "Dario Fanjful": "dario.fanjul@despegar.com"
+    "Dario Fanjul": "dario.fanjul@despegar.com"
   },
   "source": {
-    "path": "."
+    "git": "https://github.com/dafanjul/DMHotelFramework.git"
   },
-  "source_files": [
-    "Classes",
-    "DMHotelFramework/**/*.{h,m, swift}"
-  ],
+  "source_files": "DMHotelFramework/**/*.{h,m, swift}",
   "exclude_files": "Classes/Exclude",
   "resources": "Resources/*"
 }

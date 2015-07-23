@@ -1,19 +1,24 @@
 PODS:
+  - DMFlightsFramework (0.0.1)
   - DMHotelFramework (0.0.1)
 
 DEPENDENCIES:
+  - DMFlightsFramework (from `../DMFlightsFramework`)
   - DMHotelFramework (from `https://github.com/dafanjul/DMHotelFramework.git`)
 
 EXTERNAL SOURCES:
+  DMFlightsFramework:
+    :path: ../DMFlightsFramework
   DMHotelFramework:
     :git: https://github.com/dafanjul/DMHotelFramework.git
 
 CHECKOUT OPTIONS:
   DMHotelFramework:
-    :commit: 946f61e97b4ece279658a85d61fd006282b31828
+    :commit: 1949cfc964e987e04ef03b2bb38b343504cda242
     :git: https://github.com/dafanjul/DMHotelFramework.git
 
 SPEC CHECKSUMS:
-  DMHotelFramework: 49b58c1028d4eaa7d5f8529d31b74387b54ec7ed
+  DMFlightsFramework: 59669a394e3df814b0cef0d07774e2d68f382bf6
+  DMHotelFramework: 83aae07c8d472aa40ae959290bbf547837fced04
 
 COCOAPODS: 0.37.2
