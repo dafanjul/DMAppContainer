@@ -1,1 +1,0 @@
-../../../DMHotelFramework/DMHotelFramework/DMHotel.h

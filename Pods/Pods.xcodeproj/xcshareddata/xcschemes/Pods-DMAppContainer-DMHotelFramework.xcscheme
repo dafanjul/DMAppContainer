@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF72C4CEC2BAD54BCCA7C8EC"
+               BlueprintIdentifier = "95B086ED2EBC890636CFA0B1"
                BuildableName = "DMHotelFramework.framework"
                BlueprintName = "Pods-DMAppContainer-DMHotelFramework"
                ReferencedContainer = "container:Pods.xcodeproj">

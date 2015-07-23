@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzN-Do-Lai">
-                                <rect key="frame" x="274" y="129" width="53" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uzN-Do-Lai">
+                                <rect key="frame" x="274" y="173" width="53" height="30"/>
                                 <state key="normal" title="Hoteles">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -25,18 +25,29 @@
                                     <action selector="HotelsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Ow-IR-ead"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5K-HL-WgL">
+                                <rect key="frame" x="277" y="264" width="46" height="30"/>
+                                <state key="normal" title="Vuelos">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="FlightsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="shH-HC-5TL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uzN-Do-Lai" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Nw-ss-nzf"/>
+                            <constraint firstItem="P5K-HL-WgL" firstAttribute="top" secondItem="uzN-Do-Lai" secondAttribute="bottom" constant="61" id="RUW-To-D11"/>
                             <constraint firstItem="uzN-Do-Lai" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="109" id="XtP-y4-pFd"/>
+                            <constraint firstItem="P5K-HL-WgL" firstAttribute="centerX" secondItem="uzN-Do-Lai" secondAttribute="centerX" id="agH-wz-s3d"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="xKU-gK-E1u"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1117" y="357"/>
+            <point key="canvasLocation" x="1116" y="1018"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="l3g-ze-Uw2">

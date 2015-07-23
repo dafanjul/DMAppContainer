@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-DMAppContainer-DMFlightsFramework.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DMAppContainer-DMHotelFramework.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>23472C57B8BBF16B870E9C9F</key>
+		<key>0AB70ABC4C116AA9B85371B2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5F05547C9FA87038388D0953</key>
+		<key>305A16C7EA1337F0FB6BDA78</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>95B086ED2EBC890636CFA0B1</key>
 		<dict>
 			<key>primary</key>
 			<true/>

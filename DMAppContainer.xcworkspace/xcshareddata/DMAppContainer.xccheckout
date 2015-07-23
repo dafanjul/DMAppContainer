@@ -12,6 +12,10 @@
 	<dict>
 		<key>43746770E8CDB83B58680C499421FF28F6267297</key>
 		<string>https://github.com/dafanjul/DMAppContainer.git</string>
+		<key>5E2EA36A24395B7C7E229067C75BF36EE5A8F1EF</key>
+		<string>https://github.com/dafanjul/DMFlightsFramework.git</string>
+		<key>ED1F6F18AA34144778F8117CEA7827E11A6ECF93</key>
+		<string>https://github.com/dafanjul/DMHotelFramework.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>DMAppContainer.xcworkspace</string>
@@ -19,6 +23,10 @@
 	<dict>
 		<key>43746770E8CDB83B58680C499421FF28F6267297</key>
 		<string>..</string>
+		<key>5E2EA36A24395B7C7E229067C75BF36EE5A8F1EF</key>
+		<string>../../DMFlightsFramework</string>
+		<key>ED1F6F18AA34144778F8117CEA7827E11A6ECF93</key>
+		<string>../../DMHotelFramework</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/dafanjul/DMAppContainer.git</string>
@@ -35,6 +43,22 @@
 			<string>43746770E8CDB83B58680C499421FF28F6267297</string>
 			<key>IDESourceControlWCCName</key>
 			<string>DMAppContainer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5E2EA36A24395B7C7E229067C75BF36EE5A8F1EF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DMFlightsFramework</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ED1F6F18AA34144778F8117CEA7827E11A6ECF93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DMHotelFramework</string>
 		</dict>
 	</array>
 </dict>

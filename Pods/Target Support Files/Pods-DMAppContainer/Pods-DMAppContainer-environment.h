@@ -6,6 +6,12 @@
 // project.
 
 
+// DMCoreFramework
+#define COCOAPODS_POD_AVAILABLE_DMCoreFramework
+#define COCOAPODS_VERSION_MAJOR_DMCoreFramework 0
+#define COCOAPODS_VERSION_MINOR_DMCoreFramework 0
+#define COCOAPODS_VERSION_PATCH_DMCoreFramework 1
+
 // DMFlightsFramework
 #define COCOAPODS_POD_AVAILABLE_DMFlightsFramework
 #define COCOAPODS_VERSION_MAJOR_DMFlightsFramework 0

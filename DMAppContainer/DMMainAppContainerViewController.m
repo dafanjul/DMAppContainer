@@ -7,7 +7,9 @@
 //
 
 #import "DMMainAppContainerViewController.h"
-#import "DMHotel.h"
+@import DMHotelFramework;
+@import DMFlightsFramework;
+
 
 @interface DMMainAppContainerViewController ()
 
@@ -31,6 +33,12 @@
     [self.navigationController pushViewController:hotel.getMainViewController animated:YES];
     
     
+}
+
+- (IBAction)FlightsButtonPressed:(id)sender {
+    DMFlights *flights = [[DMFlights alloc] init];
+    
+    [self.navigationController pushViewController:flights.getMainViewController animated:YES];
 }
 
 /*

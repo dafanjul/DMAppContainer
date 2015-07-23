@@ -9,9 +9,15 @@
     "Dario Fanjul": "dario.fanjul@despegar.com"
   },
   "source": {
-    "git": "https://github.com/dafanjul/DMHotelFramework.git"
+    "path": "."
   },
   "source_files": "DMHotelFramework/**/*.{h,m, swift}",
   "exclude_files": "Classes/Exclude",
-  "resources": "Resources/*"
+  "public_header_files": "DMHotelFramework/DMHotelFramework.h",
+  "resources": "Resources/*",
+  "dependencies": {
+    "DMCoreFramework": [
+      "~> 0.0.1"
+    ]
+  }
 }
